@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mónica Psicología</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+  <style>
+    body {
+      background: url('Assets/Fondo.png') no-repeat center center fixed;
+      background-size: cover;
+      color: #13293D;
+      text-align: center;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    main.container {
+      background: rgba(255, 255, 255, 0.7);
+      border-radius: 10px;
+      padding: 3rem;
+      backdrop-filter: blur(5px);
+    }
+
+    h1, h2 {
+      font-weight: 500;
+      margin-bottom: 0.5em;
+    }
+
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .buttons a {
+      border: 1px solid #13293D;
+      border-radius: 25px;
+      padding: 0.7rem 2rem;
+      color: #13293D;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+
+    .buttons a:hover {
+      background: #13293D;
+      color: white;
+    }
+
+    footer {
+      margin-top: 2rem;
+      color: #13293D;
+    }
+
+    .socials {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1.2rem;
+      margin-top: 0.5rem;
+    }
+
+    .socials a img {
+      width: 30px;
+      height: 30px;
+      filter: invert(20%) sepia(20%) saturate(400%) hue-rotate(180deg);
+      transition: transform 0.3s ease;
+    }
+
+    .socials a img:hover {
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+
+  <main class="container">
+    <h2>Empieza tu viaje de autoconocimiento más profundo.</h2>
+    <div class="buttons">
+      <a href="https://monicaemch.wixsite.com/monicaepsicologia/es" target="_blank">ESPAÑOL →</a>
+    </div>
+
+    <h2>Start your journey of deeper self-discovery.</h2>
+    <div class="buttons">
+      <a href="https://monicaemch.wixsite.com/monicaepsicologia" target="_blank">ENGLISH →</a>
+    </div>
+
+    <footer>
+      <p>Contacto | Contact</p>
+      <div class="socials">
+        <a href="https://www.linkedin.com/in/monica-emch-phd/" target="_blank"><img src="Assets/linkedn.png" alt="LinkedIn"></a>
+        <a href="https://www.instagram.com/monicae.psicologia?igsh=MW91eXJyaHd6cTBieA==" target="_blank"><img src="Assets/instagram.png" alt="Instagram"></a>
+        <a href="mailto:contacto@monicaepsicologia.com"><img src="Assets/correo.png" alt="Email"></a>
+        <a href="https://www.etsy.com/es/shop/MonicaePsicologia?ref=shop_sugg_market" target="_blank"><img src="Assets/tienda.png" alt="Etsy"></a>
+      </div>
+    </footer>
+  </main>
+
+</body>
+</html>
